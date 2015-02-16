@@ -1,0 +1,1 @@
+            g_fisOutput[o] = /*FIS_DEFUZZ*/(fuzzyRuleSet, o);
