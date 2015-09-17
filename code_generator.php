@@ -3,6 +3,7 @@ function GetCodeBase()
 {
 	$code_base = array();
     $code_base['add'] = file_get_contents("codebase/fis_add.c");
+    $code_base['sum'] = file_get_contents("codebase/fis_sum.c");
     $code_base['array_operation'] = file_get_contents("codebase/fis_array_operation.c");
     $code_base['bisector'] = file_get_contents("codebase/fis_defuzz_bisector.c");
     $code_base['centroid'] = file_get_contents("codebase/fis_defuzz_centroid.c");
@@ -19,7 +20,7 @@ function GetCodeBase()
     $code_base['MF_out'] = file_get_contents("codebase/fis_MF_out.c");
     $code_base['min'] = file_get_contents("codebase/fis_min.c");
     $code_base['pimf'] = file_get_contents("codebase/fis_pimf.c");
-    $code_base['prob_or'] = file_get_contents("codebase/fis_prob_or.c");
+    $code_base['probor'] = file_get_contents("codebase/fis_prob_or.c");
     $code_base['prod'] = file_get_contents("codebase/fis_prod.c");
     $code_base['psigmf'] = file_get_contents("codebase/fis_psigmf.c");
     $code_base['sigmf'] = file_get_contents("codebase/fis_sigmf.c");

@@ -1,4 +1,4 @@
-FIS_TYPE fis_defuzz_mean_of_max(FIS_TYPE** fuzzyRuleSet, int o)
+FIS_TYPE fis_defuzz_mom(FIS_TYPE** fuzzyRuleSet, int o)
 {
     FIS_TYPE step = (fis_gOMax[o] - fis_gOMin[o]) / (FIS_RESOLUSION - 1);
     FIS_TYPE max = 0, dist, value, sum;
