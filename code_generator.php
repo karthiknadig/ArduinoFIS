@@ -219,7 +219,7 @@ function GetMFs($fis)
 function SetFISVersion($content)
 {
     // Format Major.Minor.Update.Date(ddmmyyyy)
-    return str_replace("/*FIS_Version*/", "2.0.0.29032014", $content);
+    return str_replace("/*FIS_Version*/", "2.0.1.12052016", $content);
 }
 function  SetFISHeaderFile($fis, $content)
 {
