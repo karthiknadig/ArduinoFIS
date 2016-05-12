@@ -133,7 +133,7 @@ void fis_evaluate()
     {
         if (fis_gRType[r] == 1)
         {
-            fuzzyFires[r] = FIS_MAX;
+            fuzzyFires[r] = /*FIS_AndInit*/;
             for (i = 0; i < fis_gcI; ++i)
             {
                 index = fis_gRI[r][i];
@@ -147,7 +147,7 @@ void fis_evaluate()
         }
         else
         {
-            fuzzyFires[r] = FIS_MIN;
+            fuzzyFires[r] = /*FIS_OrInit*/;
             for (i = 0; i < fis_gcI; ++i)
             {
                 index = fis_gRI[r][i];
