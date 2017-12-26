@@ -1,7 +1,9 @@
 //***********************************************************************
-// Matlab .fis to arduino C converter v/*FIS_Version*/                              
+// Matlab .fis to arduino C converter v/*FIS_Version*/                   
 // - Karthik Nadig, USA                                                  
-// Please report bugs to: karthiknadig@gmail.com                         
+// Please report bugs to:                                                
+// https://github.com/karthiknadig/ArduinoFIS/issues                     
+// If you don't have a GitHub account mail to karthiknadig@gmail.com     
 //***********************************************************************
 
 #include "/*FIS_HeaderFile*/"
@@ -60,7 +62,7 @@ int fis_gOMFCount[] = {/*FIS_OMFCounts*/};
 /*FIS_MFInputsCoeffs*/
 FIS_TYPE** fis_gMFICoeff[] = {/*FIS_MFInputsCoeffsList*/};
 
-// Coefficients for the Input Member Functions
+// Coefficients for the Output Member Functions
 /*FIS_MFOutputsCoeffs*/
 FIS_TYPE** fis_gMFOCoeff[] = {/*FIS_MFOutputsCoeffsList*/};
 
@@ -99,7 +101,7 @@ FIS_TYPE fis_gOMin[] = {/*FIS_OutputMinList*/};
 FIS_TYPE fis_gOMax[] = {/*FIS_OutputMaxList*/};
 
 //***********************************************************************
-// Data dependent support functions for Fuzzy Inference System                          
+// Data dependent support functions for Fuzzy Inference System           
 //***********************************************************************
 /*FIS_DataDependentSupportFunctions*/
 
